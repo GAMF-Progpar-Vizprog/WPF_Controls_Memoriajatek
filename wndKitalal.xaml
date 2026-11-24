@@ -1,0 +1,53 @@
+﻿<Window x:Class="Memoriajatek.wndKitalal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Memoriajatek"
+        mc:Ignorable="d"
+        Title="Kitalál" Height="240" Width="280">
+    <Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="35"/>
+				<RowDefinition/>
+				<RowDefinition/>
+				<RowDefinition Height="40"/>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition/>
+				<ColumnDefinition/>
+			</Grid.ColumnDefinitions>
+			<Image x:Name="imKitalál" Grid.Row="1" Grid.RowSpan="2"
+						 Grid.Column="0" />
+			<Label Content="Hol található?" Grid.Row="0"
+						 Grid.Column="1" Margin="5"/>
+			<Button Content="OK" Margin="5" Click="btOK_Click"
+							Grid.Row="3" Grid.Column="1"/>
+			<GroupBox Header="Első előfordulás" Grid.Row="1"
+								Grid.Column="1" Margin="5">
+				<WrapPanel x:Name="wpElső" Margin="0,0,45,0">
+					<RadioButton />
+					<RadioButton />
+					<RadioButton />
+					<RadioButton />
+					<RadioButton />
+					<RadioButton />
+					<RadioButton />
+					<RadioButton />
+				</WrapPanel>
+			</GroupBox>
+		<GroupBox Header="Második előfordulás" Grid.Row="2"
+							Grid.Column="1" Margin="5">
+			<WrapPanel x:Name="wpMásodik" Margin="0,0,45,0">
+				<RadioButton />
+				<RadioButton />
+				<RadioButton />
+				<RadioButton />
+				<RadioButton />
+				<RadioButton />
+				<RadioButton />
+				<RadioButton />
+			</WrapPanel>
+		</GroupBox>
+	</Grid>
+</Window>
