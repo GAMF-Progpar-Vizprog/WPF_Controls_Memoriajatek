@@ -1,1 +1,1 @@
-# WPF_Memoriajatek
+# WPF_Controls_Memoriajatek

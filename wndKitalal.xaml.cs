@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Memoriajatek
+namespace WPF_Controls_Memoriajatek
 {
 	
 	public partial class wndKitalal : Window

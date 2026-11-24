@@ -3,7 +3,7 @@ using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 
 
-namespace Memoriajatek
+namespace WPF_Controls_Memoriajatek
 {
 	public partial class MainWindow : Window
 	{

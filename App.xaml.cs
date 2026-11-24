@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace Memoriajatek
+namespace WPF_Controls_Memoriajatek
 {
 	/// <summary>
 	/// Interaction logic for App.xaml
